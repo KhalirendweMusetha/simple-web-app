@@ -8,7 +8,6 @@ on:
 permissions:
   contents: read  # Allow reading the repository's contents
   id-token: write  # Allow writing ID tokens for authentication
-  s3: write  # Allow uploading files to S3
 
 jobs:
   deploy:
